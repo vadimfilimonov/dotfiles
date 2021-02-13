@@ -1,0 +1,42 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Upgrade the OS
+    apt:
+      upgrade: dist
+  - name: Install packages via apt
+    apt:
+      name:
+      - git
+      - curl
+      - python2
+      - build-essential
+      - gcc
+      - make
+      - libpng-dev
+      - zsh
+      - flameshot
+      - gnome-tweak-tool
+      state: present
+      update_cache: yes
+  - name: install packages via snap
+    community.general.snap:
+      name:
+      - code
+      - opera
+      - rocketchat-desktop
+      - sublime-text
+      - teams
+      - postman
+      - telegram-desktop
+      classic: yes
+  - name: Install Google Chrome
+    apt:
+      deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  - name: Install Skype
+    apt:
+      deb: https://go.skype.com/skypeforlinux-64.deb
+  - name: Remove dependencies that are no longer required
+    apt:
+      autoremove: yes
