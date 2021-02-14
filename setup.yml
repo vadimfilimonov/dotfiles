@@ -37,6 +37,11 @@
   - name: Install Skype
     apt:
       deb: https://go.skype.com/skypeforlinux-64.deb
+  - name: Install NVM
+    shell: >
+      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    args:
+      creates: "{{ ansible_env.HOME }}/.nvm/nvm.sh"
   - name: Remove dependencies that are no longer required
     apt:
       autoremove: yes
