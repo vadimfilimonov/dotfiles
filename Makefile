@@ -1,3 +1,3 @@
 install:
-	sudo ansible-galaxy install -r requirements.yml
-	sudo ansible-playbook --connection=local --inventory 127.0.0.1, setup.yml
+	ansible-galaxy collection install -r requirements.yml
+	ansible-playbook --ask-become-pass --connection=local --inventory 127.0.0.1, setup.yml

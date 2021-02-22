@@ -2,6 +2,12 @@
 
 This is a repo for my Ubuntu dotfiles.
 
+## Pre-installation
+
+```sh
+sudo apt install git ansible make
+```
+
 ## Installation
 
 ```sh
