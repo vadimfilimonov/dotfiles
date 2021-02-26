@@ -21,6 +21,7 @@
       - libpng-dev
       - zsh
       - flameshot
+      - net-tools
       - gnome-tweak-tool
       state: present
       update_cache: yes
