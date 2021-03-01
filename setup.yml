@@ -24,6 +24,7 @@
       - net-tools
       - gnome-tweak-tool
       - asciinema
+      - net-tools
       state: present
       update_cache: yes
   - name: install packages via snap
