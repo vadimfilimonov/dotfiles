@@ -23,6 +23,7 @@
       - flameshot
       - net-tools
       - gnome-tweak-tool
+      - asciinema
       state: present
       update_cache: yes
   - name: install packages via snap
