@@ -19,12 +19,11 @@
       - build-essential
       - gcc
       - libpng-dev
-      - zsh
       - flameshot
       - net-tools
       - gnome-tweak-tool
       - asciinema
-      - net-tools
+      - gstreamer1.0-libav
       state: present
       update_cache: yes
   - name: install packages via snap
@@ -34,15 +33,8 @@
       - sublime-text
       - rocketchat-desktop
       - telegram-desktop
-      - teams
-      - postman
       - opera
       classic: yes
-  - name: Install NVM
-    shell: >
-      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-    args:
-      creates: "{{ ansible_env.HOME }}/.nvm/nvm.sh"
   - name: Remove dependencies that are no longer required
     apt:
       autoremove: yes
