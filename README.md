@@ -1,17 +1,23 @@
 # Vadim Filimonov's dotfiles
 
-This is a repo for my Ubuntu dotfiles.
+This is a repo for my dotfiles.
 
-## Pre-installation
+## Ubuntu
+
+### Pre-installation
 
 ```sh
 sudo apt install git ansible make
 ```
 
-## Installation
+### Installation
 
 ```sh
 git clone https://github.com/vadimfilimonov/dotfiles .dotfiles
 cd .dotfiles
-make install
+make install-ubuntu
 ```
+
+## MacOS
+
+In progress...
