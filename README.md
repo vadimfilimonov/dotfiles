@@ -20,4 +20,14 @@ make install-ubuntu
 
 ## MacOS
 
-In progress...
+### Pre-installation
+
+```sh
+brew install ansible
+```
+
+### Installation
+
+```sh
+make install-macos
+```
