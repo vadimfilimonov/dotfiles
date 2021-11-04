@@ -1,0 +1,14 @@
+---
+  - name: MacOS machine
+    hosts: all
+    tasks:
+      - name: Ensure apps are installed
+        homebrew_cask:
+          name:
+            - google-chrome
+            - firefox
+            - visual-studio-code
+            - sublime-text
+            - telegram
+            - slack
+            - iterm2

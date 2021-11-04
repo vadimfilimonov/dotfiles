@@ -8,9 +8,6 @@
   - name: Install Google Chrome
     apt:
       deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-  - name: Install Skype
-    apt:
-      deb: https://go.skype.com/skypeforlinux-64.deb
   - name: Install packages via apt
     apt:
       name:
@@ -31,9 +28,7 @@
       name:
       - code
       - sublime-text
-      - rocketchat-desktop
       - telegram-desktop
-      - opera
       classic: yes
   - name: Remove dependencies that are no longer required
     apt:
