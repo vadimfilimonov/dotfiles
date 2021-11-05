@@ -29,5 +29,7 @@ brew install ansible
 ### Installation
 
 ```sh
+git clone https://github.com/vadimfilimonov/dotfiles .dotfiles
+cd .dotfiles
 make install-macos
 ```
