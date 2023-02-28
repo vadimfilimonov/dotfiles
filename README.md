@@ -2,12 +2,6 @@
 
 This is a repo for my macOS dotfiles.
 
-### Pre-installation
-
-```sh
-brew install ansible
-```
-
 ### Installation
 
 ```sh

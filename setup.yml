@@ -1,19 +1,9 @@
 ---
   - name: MacOS machine
     hosts: all
+    # TODO: Remove unnecessary tasks
     tasks:
       - name: Ensure apps are installed
         homebrew_cask:
           name:
-            - google-chrome
-            - firefox
-            - visual-studio-code
             - sublime-text
-            - telegram
-            - slack
-            - whatsapp
-            - deepl
-            - postman
-            - ngrok
-            - iterm2
-            - fzf
