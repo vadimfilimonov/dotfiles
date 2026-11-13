@@ -13,9 +13,9 @@ adopt = true
 "brew:pwgen" = "latest"
 "brew:wget" = "latest"
 
-"brew-cask:google-chrome" = { os = "macos" }
-"brew-cask:visual-studio-code" = { os = "macos" }
-"brew-cask:sublime-text" = { os = "macos" }
-"brew-cask:telegram" = { os = "macos" }
-"brew-cask:postman" = { os = "macos" }
-"brew-cask:iterm2" = { os = "macos" }
+"brew-cask:google-chrome" = "latest"
+"brew-cask:visual-studio-code" = "latest"
+"brew-cask:sublime-text" = "latest"
+"brew-cask:telegram" = "latest"
+"brew-cask:postman" = "latest"
+"brew-cask:iterm2" = "latest"
