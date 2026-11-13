@@ -1,9 +1,0 @@
----
-  - name: MacOS machine
-    hosts: all
-    # TODO: Remove unnecessary tasks
-    tasks:
-      - name: Ensure apps are installed
-        homebrew_cask:
-          name:
-            - sublime-text
