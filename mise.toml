@@ -1,0 +1,21 @@
+# Machine-wide CLI tools and macOS applications.
+# mise's brew formula installer supports Apple Silicon, not Intel Macs.
+[bootstrap.brew]
+adopt = true
+
+[bootstrap.packages]
+"brew:bat" = "latest"
+"brew:curl" = "latest"
+"brew:diff-so-fancy" = "latest"
+"brew:eza" = "latest"
+"brew:fzf" = "latest"
+"brew:neovim" = "latest"
+"brew:pwgen" = "latest"
+"brew:wget" = "latest"
+
+"brew-cask:google-chrome" = { os = "macos" }
+"brew-cask:visual-studio-code" = { os = "macos" }
+"brew-cask:sublime-text" = { os = "macos" }
+"brew-cask:telegram" = { os = "macos" }
+"brew-cask:postman" = { os = "macos" }
+"brew-cask:iterm2" = { os = "macos" }
