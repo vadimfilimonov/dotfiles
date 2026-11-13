@@ -52,4 +52,4 @@ git pull --ff-only
 - `mise.toml` is the source of truth for **8 CLI tools** and **6 desktop applications**.
 - Packages are installed machine-wide, not per project; the configuration does not pin exact versions.
 - For existing applications, `adopt = true` attempts to preserve and adopt an identical app bundle rather than replace it. Adoption may fail if the installed app differs from the downloaded version.
-- The previous Homebrew-based setup is preserved in the [`backup/pre-mise`](https://github.com/vadimfilimonov/dotfiles/tree/backup/pre-mise) branch.
+- The previous Homebrew-based setup is available at [commit `0584912c`](https://github.com/vadimfilimonov/dotfiles/tree/0584912c5eb0b0711293bb709aba8ea6075d75e6).
