@@ -9,7 +9,6 @@ adopt = true
 "brew:diff-so-fancy" = "latest"
 "brew:eza" = "latest"
 "brew:fzf" = "latest"
-"brew:neovim" = "latest"
 "brew:pwgen" = "latest"
 "brew:wget" = "latest"
 
